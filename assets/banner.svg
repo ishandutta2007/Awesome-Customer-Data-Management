@@ -13,11 +13,6 @@
       <stop offset="100%" stop-color="#c084fc" />
     </linearGradient>
 
-    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284c7" />
-      <stop offset="100%" stop-color="#6366f1" />
-    </linearGradient>
-
     <linearGradient id="glowLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
       <stop offset="50%" stop-color="#818cf8" stop-opacity="0.8" />
@@ -38,8 +33,7 @@
     </filter>
   </defs>
 
-  <style>
-    /* Dynamic floating particles & waves in background */
+  <style><![CDATA[
     @keyframes pulseOrb {
       0%, 100% { transform: scale(1) translate(0px, 0px); opacity: 0.45; }
       50% { transform: scale(1.15) translate(25px, -20px); opacity: 0.75; }
@@ -62,7 +56,7 @@
     .flow-line { stroke-dasharray: 120 180; animation: dataStream 14s linear infinite; }
     .flow-line-fast { stroke-dasharray: 80 140; animation: dataStream 8s linear infinite reverse; }
     .pill-group { animation: floatPill 6s ease-in-out infinite; }
-  </style>
+  ]]></style>
 
   <!-- Deep Background -->
   <rect width="1200" height="420" fill="url(#bgGrad)" />
@@ -103,7 +97,7 @@
   </g>
 
   <!-- FOREGROUND CONTENT: Header Tag, Title, Subtitle, Feature Pills -->
-  
+
   <!-- Curated Collection Pill -->
   <g transform="translate(600, 75)" text-anchor="middle">
     <rect x="-135" y="-17" width="270" height="34" rx="17" fill="#1e293b" stroke="#334155" stroke-width="1.5" />
