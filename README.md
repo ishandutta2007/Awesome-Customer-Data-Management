@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Customer-Data-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Data-Management?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Data-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Data-Management?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-Data-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-Data-Management?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-Data-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Customer-Data-Management?style=flat-square" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Customer-Data-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
@@ -65,69 +65,69 @@ Rather than coalescing into a single "winner-take-all" monopoly, the sector rema
 
 ## 💻 Open-Source GitHub Projects
 
-*Self-hosted open-source Customer Data Platforms, event tracking engines, Reverse ETL, and customer identity frameworks. Ranked by GitHub stars (descending).*
+*Self-hosted open-source Customer Data Platforms, event tracking engines, Reverse ETL, and customer identity frameworks. Ranked by GitHub_Stars (descending).*
 
-### 1. [PostHog](https://github.com/posthog/posthog) [![GitHub stars](https://img.shields.io/github/stars/posthog/posthog?style=social&color=white)](https://github.com/posthog/posthog/stargazers)
+### 1. [PostHog](https://github.com/posthog/posthog) [![GitHub_Stars](https://img.shields.io/github/stars/posthog/posthog?style=social&color=white)](https://github.com/posthog/posthog/stargazers)
 - **Description**: The all-in-one open-source customer data and product intelligence platform. Combines event tracking, customer personas, session replays, feature flags, A/B testing, and warehouse data pipelines.
 - **License**: MIT / PostHog Open-source
 - **Tech Stack**: Python (Django), ClickHouse, TypeScript, React
 - **Best For**: Engineering and product teams wanting a full-featured customer data and analytics platform self-hosted or managed.
 
-### 2. [Snowplow](https://github.com/snowplow/snowplow) [![GitHub stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers)
+### 2. [Snowplow](https://github.com/snowplow/snowplow) [![GitHub_Stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers)
 - **Description**: Enterprise-grade Behavioral Data Platform (BDP) generating rich, high-fidelity first-party customer behavioral event streams directly into your cloud warehouse or real-time stream.
 - **License**: Snowplow Limited Use License / Apache 2.0 components
 - **Tech Stack**: Scala, Apache Kafka, Spark, Cloud Kinesis/PubSub
 - **Best For**: Data-mature organizations requiring high-integrity, schema-enforced behavioral customer event collection.
 
-### 3. [Jitsu](https://github.com/jitsucom/jitsu) [![GitHub stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers)
+### 3. [Jitsu](https://github.com/jitsucom/jitsu) [![GitHub_Stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers)
 - **Description**: High-performance, open-source Segment alternative and event collection pipeline. Fully scriptable customer event ingestion engine with real-time routing to databases, data warehouses, and marketing APIs.
 - **License**: MIT
 - **Tech Stack**: TypeScript, Go, ClickHouse, Kafka
 - **Best For**: Modern developers needing a fast, lightweight, scriptable clickstream ingestion engine without vendor lock-in.
 
-### 4. [RudderStack Server](https://github.com/rudderlabs/rudder-server) [![GitHub stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers)
+### 4. [RudderStack Server](https://github.com/rudderlabs/rudder-server) [![GitHub_Stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers)
 - **Description**: Warehouse-first Customer Data Pipeline and Segment alternative. Collects, enriches, and routes first-party customer event data to cloud warehouses (Snowflake, BigQuery, Redshift, ClickHouse) and dozens of business destinations with deep SDK coverage.
 - **License**: AGPL-3.0
 - **Tech Stack**: Go, TypeScript, React
 - **Best For**: Data teams aiming to own their event data pipeline and build customer data infrastructure directly inside their warehouse.
 
-### 5. [Pimcore Customer Management Framework](https://github.com/pimcore/pimcore) [![GitHub stars](https://img.shields.io/github/stars/pimcore/pimcore?style=social&color=white)](https://github.com/pimcore/pimcore/stargazers)
+### 5. [Pimcore Customer Management Framework](https://github.com/pimcore/pimcore) [![GitHub_Stars](https://img.shields.io/github/stars/pimcore/pimcore?style=social&color=white)](https://github.com/pimcore/pimcore/stargazers)
 - **Description**: Open-source platform offering Customer Data Platform (CDP), Master Data Management (MDM), and Product Information Management (PIM) capabilities. Unifies customer master records, GDPR consent logs, and omnichannel interactions.
 - **License**: GPL-3.0
 - **Tech Stack**: PHP (Symfony), MySQL, Elasticsearch
 - **Best For**: Organizations managing master records, catalog data, and customer identities in a unified data governance suite.
 
-### 6. [Multiwoven](https://github.com/Multiwoven/multiwoven) [![GitHub stars](https://img.shields.io/github/stars/Multiwoven/multiwoven?style=social&color=white)](https://github.com/Multiwoven/multiwoven/stargazers)
+### 6. [Multiwoven](https://github.com/Multiwoven/multiwoven) [![GitHub_Stars](https://img.shields.io/github/stars/Multiwoven/multiwoven?style=social&color=white)](https://github.com/Multiwoven/multiwoven/stargazers)
 - **Description**: Open-source Reverse ETL and customer data activation platform. Syncs customer profiles, segments, and behavioral traits from your cloud data warehouse (Snowflake, Databricks, BigQuery, PostgreSQL) into CRMs, marketing tools, and advertising channels.
 - **License**: AGPL-3.0
 - **Tech Stack**: Ruby on Rails, React, Python
 - **Best For**: Data engineers and marketing operations teams looking to activate customer warehouse tables without per-row SaaS charges.
 
-### 7. [Grouparoo](https://github.com/grouparoo/grouparoo) [![GitHub stars](https://img.shields.io/github/stars/grouparoo/grouparoo?style=social&color=white)](https://github.com/grouparoo/grouparoo/stargazers)
+### 7. [Grouparoo](https://github.com/grouparoo/grouparoo) [![GitHub_Stars](https://img.shields.io/github/stars/grouparoo/grouparoo?style=social&color=white)](https://github.com/grouparoo/grouparoo/stargazers)
 - **Description**: Open-source Reverse ETL framework built by the community (now maintained open-source) to define customer records, build cohorts, and sync them back to marketing and sales tools.
 - **License**: MPL-2.0
 - **Tech Stack**: Node.js, TypeScript, React
 - **Best For**: Developers looking for an open-source, code-first customer data synchronization tool.
 
-### 8. [Tracardi](https://github.com/Tracardi/tracardi) [![GitHub stars](https://img.shields.io/github/stars/Tracardi/tracardi?style=social&color=white)](https://github.com/Tracardi/tracardi/stargazers)
+### 8. [Tracardi](https://github.com/Tracardi/tracardi) [![GitHub_Stars](https://img.shields.io/github/stars/Tracardi/tracardi?style=social&color=white)](https://github.com/Tracardi/tracardi/stargazers)
 - **Description**: Composable, API-first Customer Data Platform and workflow orchestration engine. Enforces customer data unification, real-time segmentation, automated user journeys, and micro-moment personalization via an intuitive visual graph interface.
 - **License**: MIT
 - **Tech Stack**: Python, Elasticsearch, React
 - **Best For**: Developers and marketers seeking an agile Python-based CDP with visual workflow automation and RESTful endpoint management.
 
-### 9. [Apache Unomi](https://github.com/apache/unomi) [![GitHub stars](https://img.shields.io/github/stars/apache/unomi?style=social&color=white)](https://github.com/apache/unomi/stargazers)
+### 9. [Apache Unomi](https://github.com/apache/unomi) [![GitHub_Stars](https://img.shields.io/github/stars/apache/unomi?style=social&color=white)](https://github.com/apache/unomi/stargazers)
 - **Description**: Reference implementation of the OASIS Customer Data Platform specification. Manages real-time unified user profiles across anonymous and identified visitors, privacy/consent management, scoring, and personalization.
 - **License**: Apache-2.0
 - **Tech Stack**: Java (OSGi / Apache Karaf), Elasticsearch
 - **Best For**: Enterprise teams requiring a standards-compliant, privacy-first customer profile and consent management platform with proven deployments.
 
-### 10. [LEO CDP](https://github.com/trieu/leo-cdp-framework) [![GitHub stars](https://img.shields.io/github/stars/trieu/leo-cdp-framework?style=social&color=white)](https://github.com/trieu/leo-cdp-framework/stargazers)
+### 10. [LEO CDP](https://github.com/trieu/leo-cdp-framework) [![GitHub_Stars](https://img.shields.io/github/stars/trieu/leo-cdp-framework?style=social&color=white)](https://github.com/trieu/leo-cdp-framework/stargazers)
 - **Description**: Open-source AI-first Customer Data Platform framework. Provides omnichannel behavioral event collection, real-time Customer 360 profiles, RFM segmentation, customer lifetime value (CLV) scoring, and agentic AI personalization workflows.
 - **License**: AGPL-3.0
 - **Tech Stack**: Java, Dagster, ArangoDB, Docker
 - **Best For**: Teams experimenting with self-hosted AI-driven customer segmentation and journey automation.
 
-### 11. [MessageBirds](https://github.com/Mullassery/MessageBirds) [![GitHub stars](https://img.shields.io/github/stars/Mullassery/MessageBirds?style=social&color=white)](https://github.com/Mullassery/MessageBirds/stargazers)
+### 11. [MessageBirds](https://github.com/Mullassery/MessageBirds) [![GitHub_Stars](https://img.shields.io/github/stars/Mullassery/MessageBirds?style=social&color=white)](https://github.com/Mullassery/MessageBirds/stargazers)
 - **Description**: Modern, event-driven customer data and engagement platform built in Rust. Features a deterministic identity graph, field-level data governance schema registry, and durable workflow engines.
 - **License**: Apache-2.0
 - **Tech Stack**: Rust, TypeScript, Kafka / Redpanda, PostgreSQL
@@ -141,7 +141,7 @@ Contributions are warmly welcomed! Help make this the most complete, factual res
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a new branch**: `git checkout -b add/my-awesome-cdp`.
-3. 📝 **Add or improve entries** in `README.md` following the existing format (include repository link, social star badge, factual description, license, tech stack, and best-for use cases).
+3. 📝 **Add or improve entries** in `README.md` following the existing format (include repository link, social Stars_Badge, factual description, license, tech stack, and best-for use cases).
 4. 📬 **Submit a Pull Request** with a brief summary of the project.
 
 ---
@@ -176,3 +176,12 @@ You can sponsor the maintainer or buy a coffee via the [GitHub Sponsors Dashboar
 <p align="center">
   <sub>Maintained with ❤️ for the global data engineering, CDP, and growth communities.</sub>
 </p>
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Customer-Data-Management&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Customer-Data-Management_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Customer-Data-Management_growth.svg">
+  </picture>
+</a>
