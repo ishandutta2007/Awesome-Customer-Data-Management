@@ -1,52 +1,52 @@
-# Awesome-Customer-Data-Management
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Customer Data Management Banner" width="100%" />
+</p>
 
-# Awesome-Customer-Data-Management
+# 🚀 Awesome Customer Data Management
 
-**Top Customer Data Management (Opensource) 🌟 Star if you like it! 🌟**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Data-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Customer-Data-Management?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Data-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Customer-Data-Management?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Data-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Customer-Data-Management?style=flat-square" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Customer-Data-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
+> 🌟 **A curated directory of leading SaaS Customer Data Platforms (CDP) and top Open-Source Customer Data Management tools.**  
+> *Covering unified customer profiles, real-time identity resolution, audience segmentation, Reverse ETL, clickstream tracking, and warehouse-native data activation.*
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+---
 
-*Focused on Customer Data Platforms (CDP), Identity Resolution, Audience Segmentation & Data Activation*
+## 📑 Table of Contents
 
-**Last updated: October 2026**
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Customer Data Platforms](#-saas--hosted-customer-data-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
+## 📊 Sector Overview & Market Dynamics
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Customer Data Management**. These tools enable organizations to collect, unify, and activate customer data across touchpoints—from fully managed enterprise CDPs with AI-powered identity graphs and real-time personalization to self-hosted platforms that give teams complete control over first-party data and privacy compliance.
+The global **Customer Data Platform (CDP)** market is estimated between **$7.5B and $9.5B** in 2024–2025 and is projected to cross **$10.4B–$12.8B by 2026**, advancing at a compound annual growth rate (**CAGR**) of ~23%–28%. 
 
+Rather than coalescing into a single "winner-take-all" monopoly, the sector remains **highly fragmented**. Market dynamics are split across three major archetypes:
+1. **Enterprise Suite / Packaged CDPs** (Salesforce Data Cloud, Twilio Segment, Tealium, Bloomreach) offering end-to-end identity resolution, UI-driven marketer journeys, and turnkey integrations.
+2. **Composable & Warehouse-Native CDPs** (RudderStack, Multiwoven, drt) building pipelines directly on top of cloud data warehouses like Snowflake, BigQuery, and Databricks.
+3. **Open-Source & Privacy-First Foundations** (PostHog, Apache Unomi, Snowplow, Jitsu, Pimcore) enabling complete data sovereignty, zero egress vendor lock-in, and full GDPR/CCPA governance compliance.
 
+---
 
-**Examples** include Salesforce Data Cloud, Segment, Tealium, mParticle, Treasure Data, Amperity, RudderStack, ActionIQ, Bloomreach, and Workday Customer Data Management (the category leaders in commercial space).
+## 🏢 SaaS & Hosted Customer Data Platforms
 
-
-
-**Open-source emphasis**: This section is expanded with every major active project for self-hosting, CDP infrastructure, and open data activation—ideal for developers, data teams, and organizations seeking transparent, vendor-independent customer data management.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
-
-The global Customer Data Platform (CDP) market is estimated at ~$7.5B–$9.5B in 2024–2025 and is projected to cross $10.4B–$12.8B by 2026, advancing at a CAGR of ~23%–28%. The sector is **highly fragmented** rather than winner-take-all, split between traditional packaged CDPs, enterprise CRM/cloud suites, and composable warehouse-native architectures competing across specialized industry verticals and AI-driven activation models.
-
-
-
-## SaaS/Hosted Platforms
+*Enterprise SaaS platforms ranked by company valuation / market capitalization (descending).*
 
 | Platform | Company Size (Valuation / Market Cap) | Starting Price | Free Tier / Trial Limits | Description & Best For |
 | :--- | :--- | :--- | :--- | :--- |
@@ -61,108 +61,118 @@ The global Customer Data Platform (CDP) market is estimated at ~$7.5B–$9.5B in
 | **[mParticle](https://www.mparticle.com/)** | $300M (Acquired by Rokt) | ~$3,000/mo (estimated entry contract based on mParticle Credits) | 14-day sales-assisted developer sandbox POC (no self-serve free tier) | Customer data platform tailored for mobile-first and omnichannel identity resolution. Best for mobile-first apps needing real-time audience segmentation and SDK pipelines. |
 | **[RudderStack](https://www.rudderstack.com/)** | ~$300M Valuation ($82M Raised) | $265/mo (Growth tier) | Free forever: 250,000 events/mo (plus 14-day free trial of Growth tier; open-source core is 100% free) | Warehouse-first customer data pipeline. Best for engineering and data teams building a Segment alternative directly in Snowflake, BigQuery, or Databricks. |
 
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Apache Unomi](https://github.com/apache/unomi)**
-
-  **Java Open Source Customer Data Platform** (Apache 2.0) — **the most mature open-source CDP** and a reference implementation of the OASIS CDP standard . **Features**: Unified persistent profiles across anonymous and identified visitors, real-time segmentation and scoring, GDPR consent management as a first-class feature, REST/JSON API for any integration, Elasticsearch backend, and plugin architecture extensible without forking . **Tech stack**: Java (Apache Karaf OSGi), Elasticsearch. **Deploy**: Self-hosted (Docker image available) . **Adoption**: Used by City of Munich for web personalization and by Jahia, Ninetailed, and Dropsolid in commercial products . **Best for**: organizations wanting a standards-compliant, privacy-first CDP with proven production deployments.
-
-
-
-- **[RudderStack](https://github.com/rudderlabs/rudder-server)**
-
-  **Warehouse-first Customer Data Pipeline and Segment alternative** (AGPL-3.0 for core) — **the most widely adopted open-source event pipeline** with ~4,150 GitHub stars . **Features**: Collects and routes clickstream data from web, mobile, and server sources; builds customer data lake directly in your warehouse (Snowflake, BigQuery, Redshift); extensive SDK coverage (JavaScript, iOS, Android, React Native, Flutter, Go, Node, Rust, Unity, Kotlin) ; privacy and security focused. **Tech stack**: Go (server), TypeScript (transformer), React. **Deploy**: Self-hosted (Docker, Kubernetes) or RudderStack Cloud. **Best for**: data teams wanting to own their event pipeline and build customer data infrastructure in their warehouse without per-event SaaS costs.
-
-
-
-- **[Tracardi](https://github.com/Tracardi/tracardi)**
-
-  **Composable API-first Customer Data Platform** (license per repo) — **a flexible, developer-oriented CDP** with ~476 GitHub stars . **Features**: Customer data unification, event tracking, segmentation, and workflow automation; API-first design for integration with any stack; GUI available via separate `tracardi-gui` repository. **Tech stack**: Python. **Deploy**: Self-hosted. **Best for**: developers wanting a Python-based CDP with workflow automation capabilities and full API control.
-
-
-
-- **[LEO CDP](https://github.com/trieu/leo-cdp-framework)**
-
-  **AI-first Customer Data Platform framework** (license per repo) — **a comprehensive, self-hosted CDP with ML and big data at its core** . **Features**: Omnichannel data collection (web, mobile, CRM, POS, e-commerce, social, IoT), real-time Customer 360, ML-based segmentation (RFM, CLV, churn prediction, lead scoring), behavioral tracking and journey mapping, real-time audience activation, and Agentic AI/LLM-powered personalization. **Tech stack**: Multi-component (Dagster for orchestration, Docker/Kubernetes). **Deploy**: Self-hosted. **Note**: Ambitious scope; evaluate maturity and component integration before production adoption. **Best for**: organizations wanting an AI-native CDP framework they can customize and extend.
-
-
-
-- **[Multiwoven](https://github.com/Multiwoven/multiwoven)**
-
-  **Open-source Reverse ETL and data activation platform** (AGPL-3.0) — **the leading open-source alternative to Hightouch and Census** . **Features**: Sync data from warehouse (Snowflake, Redshift, BigQuery, Databricks, PostgreSQL) to business tools; visual model builder with SQL or dbt; connectors for CRM (Salesforce, HubSpot), marketing (Braze, Klaviyo), support (Zendesk, Intercom), ads (Google Ads, Facebook Ads), and collaboration (Slack, Sheets) . **Tech stack**: Ruby (server), React (UI). **Deploy**: Self-hosted (Docker Compose, Helm charts, cloud VM guides). **Best for**: data teams wanting to activate warehouse data without SaaS per-row pricing—**complements a CDP** rather than replacing one.
-
-
-
-- **[MessageBirds](https://github.com/Mullassery/MessageBirds)**
-
-  **Event-driven Customer Data & Engagement Platform** (license per repo) — **a modern Rust-based CDP with identity resolution and journey orchestration** . **Features**: Identity graph with deterministic matching and merge/split audit trails, schema registry with field-level governance labels, real-time audience evaluation, durable journey engine (Wait/Condition/Action/Split), consent ledger, and multi-SDK support (Web, iOS, Python, TypeScript). **Tech stack**: Rust (core), TypeScript (SDKs/UI), Kafka/Redpanda, PostgreSQL. **Deploy**: Self-hosted (Docker Compose for dev infra). **Note**: Early-stage project with disclosed unverified components (Android SDK, edge gateway not deployed) . **Best for**: developers wanting a modern, Rust-based CDP foundation with strong governance and journey capabilities.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **miniMDM** — Minimal Master Data Management application (license per repo) with lifecycle states, validation rules, audit logs, and REST API. **Note**: MDM, not CDP—manages master records (customer, product, vendor) with governance, not event-driven customer profiles . **Best for**: organizations needing lightweight MDM for customer master data governance.
-
-- **drt (data reverse tool)** — CLI-based Reverse ETL (license per repo) for syncing warehouse data to external services via YAML. **Note**: Code-first, dbt-adjacent workflow; no GUI or CDP features . **Best for**: engineering teams wanting Git-native data activation without a UI.
-
-- **Pimcore** — Open-source MDM/PIM/DAM/CDP platform (GPL-3.0) with customer data aggregation capabilities alongside product and asset management . **Best for**: organizations already using Pimcore for product data wanting customer master data in the same platform.
-
-
-
-**Frameworks for building custom systems**: Combine **Apache Unomi** for standards-compliant profile unification and segmentation with **RudderStack** for event collection and warehouse routing, **Multiwoven** for warehouse-to-tool activation, and **Tracardi** or **LEO CDP** for workflow and AI-powered personalization—creating a comprehensive customer data stack matched to each organization's privacy and infrastructure requirements.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Customer data platforms handling personal data must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate consent management, access controls, and data retention policies.
-
-- **The "CDP vs. Reverse ETL vs. MDM" distinction matters.** **Apache Unomi, Tracardi, and LEO CDP** are **Customer Data Platforms**—they unify profiles, segment audiences, and enable real-time decisioning. **RudderStack** is a **data pipeline**—it collects and routes events but relies on your warehouse for storage and activation. **Multiwoven and drt** are **Reverse ETL**—they activate warehouse data to business tools but do not collect or unify customer profiles. **miniMDM and Pimcore** are **Master Data Management**—they govern master records but lack event-driven customer intelligence . **Choose based on whether you need unification, collection, activation, or governance.**
-
-- **Apache Unomi is the most production-proven open-source CDP.** It is an OASIS standard reference implementation, used by the City of Munich, and powers commercial products from Jahia, Ninetailed, and Dropsolid . **The trade-off**: Java/OSGi stack requires operational expertise, and Elasticsearch is a hard dependency.
-
-- **RudderStack is the most widely adopted open-source customer data project** (~4,150 stars), but it is a **pipeline**, not a full CDP . It excels at event collection and warehouse routing; for profile unification and segmentation, pair it with Unomi or query your warehouse directly.
-
-- **LEO CDP and MessageBirds are ambitious but early-stage.** LEO CDP claims comprehensive AI and ML capabilities but has limited community validation . MessageBirds discloses unverified components and is not yet production-hardened . **Evaluate maturity carefully before trusting production customer data workflows.**
-
-- **Pricing transparency varies across SaaS vendors.** Segment offers transparent MTU-based tiers; Salesforce Data Cloud uses credit-based consumption; most others (Tealium, mParticle, Treasure Data, Amperity, ActionIQ, Bloomreach, Workday) require sales contact. **Validate with direct vendor conversations against your actual data volumes and activation needs.**
-
-- Self-hosted open-source solutions require proper server setup, backup configuration, and ongoing maintenance. **Customer data is highly sensitive**—ensure your hosting meets your organization's security and privacy requirements before deploying.
-
-
+---
+
+## 💻 Open-Source GitHub Projects
+
+*Self-hosted open-source Customer Data Platforms, event tracking engines, Reverse ETL, and customer identity frameworks. Ranked by GitHub stars (descending).*
+
+### 1. [PostHog](https://github.com/posthog/posthog) [![GitHub stars](https://img.shields.io/github/stars/posthog/posthog?style=social&color=white)](https://github.com/posthog/posthog/stargazers)
+- **Description**: The all-in-one open-source customer data and product intelligence platform. Combines event tracking, customer personas, session replays, feature flags, A/B testing, and warehouse data pipelines.
+- **License**: MIT / PostHog Open-source
+- **Tech Stack**: Python (Django), ClickHouse, TypeScript, React
+- **Best For**: Engineering and product teams wanting a full-featured customer data and analytics platform self-hosted or managed.
+
+### 2. [Snowplow](https://github.com/snowplow/snowplow) [![GitHub stars](https://img.shields.io/github/stars/snowplow/snowplow?style=social&color=white)](https://github.com/snowplow/snowplow/stargazers)
+- **Description**: Enterprise-grade Behavioral Data Platform (BDP) generating rich, high-fidelity first-party customer behavioral event streams directly into your cloud warehouse or real-time stream.
+- **License**: Snowplow Limited Use License / Apache 2.0 components
+- **Tech Stack**: Scala, Apache Kafka, Spark, Cloud Kinesis/PubSub
+- **Best For**: Data-mature organizations requiring high-integrity, schema-enforced behavioral customer event collection.
+
+### 3. [Jitsu](https://github.com/jitsucom/jitsu) [![GitHub stars](https://img.shields.io/github/stars/jitsucom/jitsu?style=social&color=white)](https://github.com/jitsucom/jitsu/stargazers)
+- **Description**: High-performance, open-source Segment alternative and event collection pipeline. Fully scriptable customer event ingestion engine with real-time routing to databases, data warehouses, and marketing APIs.
+- **License**: MIT
+- **Tech Stack**: TypeScript, Go, ClickHouse, Kafka
+- **Best For**: Modern developers needing a fast, lightweight, scriptable clickstream ingestion engine without vendor lock-in.
+
+### 4. [RudderStack Server](https://github.com/rudderlabs/rudder-server) [![GitHub stars](https://img.shields.io/github/stars/rudderlabs/rudder-server?style=social&color=white)](https://github.com/rudderlabs/rudder-server/stargazers)
+- **Description**: Warehouse-first Customer Data Pipeline and Segment alternative. Collects, enriches, and routes first-party customer event data to cloud warehouses (Snowflake, BigQuery, Redshift, ClickHouse) and dozens of business destinations with deep SDK coverage.
+- **License**: AGPL-3.0
+- **Tech Stack**: Go, TypeScript, React
+- **Best For**: Data teams aiming to own their event data pipeline and build customer data infrastructure directly inside their warehouse.
+
+### 5. [Pimcore Customer Management Framework](https://github.com/pimcore/pimcore) [![GitHub stars](https://img.shields.io/github/stars/pimcore/pimcore?style=social&color=white)](https://github.com/pimcore/pimcore/stargazers)
+- **Description**: Open-source platform offering Customer Data Platform (CDP), Master Data Management (MDM), and Product Information Management (PIM) capabilities. Unifies customer master records, GDPR consent logs, and omnichannel interactions.
+- **License**: GPL-3.0
+- **Tech Stack**: PHP (Symfony), MySQL, Elasticsearch
+- **Best For**: Organizations managing master records, catalog data, and customer identities in a unified data governance suite.
+
+### 6. [Multiwoven](https://github.com/Multiwoven/multiwoven) [![GitHub stars](https://img.shields.io/github/stars/Multiwoven/multiwoven?style=social&color=white)](https://github.com/Multiwoven/multiwoven/stargazers)
+- **Description**: Open-source Reverse ETL and customer data activation platform. Syncs customer profiles, segments, and behavioral traits from your cloud data warehouse (Snowflake, Databricks, BigQuery, PostgreSQL) into CRMs, marketing tools, and advertising channels.
+- **License**: AGPL-3.0
+- **Tech Stack**: Ruby on Rails, React, Python
+- **Best For**: Data engineers and marketing operations teams looking to activate customer warehouse tables without per-row SaaS charges.
+
+### 7. [Grouparoo](https://github.com/grouparoo/grouparoo) [![GitHub stars](https://img.shields.io/github/stars/grouparoo/grouparoo?style=social&color=white)](https://github.com/grouparoo/grouparoo/stargazers)
+- **Description**: Open-source Reverse ETL framework built by the community (now maintained open-source) to define customer records, build cohorts, and sync them back to marketing and sales tools.
+- **License**: MPL-2.0
+- **Tech Stack**: Node.js, TypeScript, React
+- **Best For**: Developers looking for an open-source, code-first customer data synchronization tool.
+
+### 8. [Tracardi](https://github.com/Tracardi/tracardi) [![GitHub stars](https://img.shields.io/github/stars/Tracardi/tracardi?style=social&color=white)](https://github.com/Tracardi/tracardi/stargazers)
+- **Description**: Composable, API-first Customer Data Platform and workflow orchestration engine. Enforces customer data unification, real-time segmentation, automated user journeys, and micro-moment personalization via an intuitive visual graph interface.
+- **License**: MIT
+- **Tech Stack**: Python, Elasticsearch, React
+- **Best For**: Developers and marketers seeking an agile Python-based CDP with visual workflow automation and RESTful endpoint management.
+
+### 9. [Apache Unomi](https://github.com/apache/unomi) [![GitHub stars](https://img.shields.io/github/stars/apache/unomi?style=social&color=white)](https://github.com/apache/unomi/stargazers)
+- **Description**: Reference implementation of the OASIS Customer Data Platform specification. Manages real-time unified user profiles across anonymous and identified visitors, privacy/consent management, scoring, and personalization.
+- **License**: Apache-2.0
+- **Tech Stack**: Java (OSGi / Apache Karaf), Elasticsearch
+- **Best For**: Enterprise teams requiring a standards-compliant, privacy-first customer profile and consent management platform with proven deployments.
+
+### 10. [LEO CDP](https://github.com/trieu/leo-cdp-framework) [![GitHub stars](https://img.shields.io/github/stars/trieu/leo-cdp-framework?style=social&color=white)](https://github.com/trieu/leo-cdp-framework/stargazers)
+- **Description**: Open-source AI-first Customer Data Platform framework. Provides omnichannel behavioral event collection, real-time Customer 360 profiles, RFM segmentation, customer lifetime value (CLV) scoring, and agentic AI personalization workflows.
+- **License**: AGPL-3.0
+- **Tech Stack**: Java, Dagster, ArangoDB, Docker
+- **Best For**: Teams experimenting with self-hosted AI-driven customer segmentation and journey automation.
+
+### 11. [MessageBirds](https://github.com/Mullassery/MessageBirds) [![GitHub stars](https://img.shields.io/github/stars/Mullassery/MessageBirds?style=social&color=white)](https://github.com/Mullassery/MessageBirds/stargazers)
+- **Description**: Modern, event-driven customer data and engagement platform built in Rust. Features a deterministic identity graph, field-level data governance schema registry, and durable workflow engines.
+- **License**: Apache-2.0
+- **Tech Stack**: Rust, TypeScript, Kafka / Redpanda, PostgreSQL
+- **Best For**: Systems engineers looking for high-throughput, low-latency Rust-based customer identity architecture.
 
 ---
 
+## 🤝 How to Contribute
 
+Contributions are warmly welcomed! Help make this the most complete, factual resource for customer data management:
 
-**Made for developers, data teams, and organizations building transparent customer data solutions.**
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a new branch**: `git checkout -b add/my-awesome-cdp`.
+3. 📝 **Add or improve entries** in `README.md` following the existing format (include repository link, social star badge, factual description, license, tech stack, and best-for use cases).
+4. 📬 **Submit a Pull Request** with a brief summary of the project.
 
-Let's make Customer Data Management more open, data-driven, and privacy-friendly.
+---
+
+## 💖 Support
+
+If you found this curated list helpful, please consider giving this repository a star 🌟, sharing it with fellow data professionals and developers, or forking it to build your own stack.
+
+☕ **Want to support ongoing maintenance?**  
+You can sponsor the maintainer or buy a coffee via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Customer-Data-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Customer-Data-Management&type=date&legend=top-left)
+
+---
+
+## ⚖️ Disclaimer
+
+- This is an independent, **community-curated collection** for research and architectural evaluation — not an endorsement of any commercial platform.
+- Platforms processing personal customer data must comply with international and regional privacy regulations (**GDPR, CCPA/CPRA, HIPAA**). Ensure end-to-end encryption, strict consent tracking, and data retention policies are implemented prior to deploying customer pipelines in production.
+- **Architectural Taxonomy Note**:
+  - **Full CDPs** (*Apache Unomi, PostHog, Tracardi, LEO CDP*): Collect events, stitch customer identity across sessions, manage profiles, and trigger real-time activations.
+  - **Data Pipelines & Behavioral Ingestion** (*RudderStack, Snowplow, Jitsu*): Focus on high-speed event delivery and warehouse routing without persisting full marketing journey state.
+  - **Reverse ETL** (*Multiwoven, Grouparoo*): Sync unified customer attributes out of your analytical data warehouse into operational business tools (CRMs, email providers, ads).
+  - **Master Data Management (MDM)** (*Pimcore, miniMDM*): Master golden records and governance for enterprise entities, distinct from high-frequency event streaming.
+
+---
+
+<p align="center">
+  <sub>Maintained with ❤️ for the global data engineering, CDP, and growth communities.</sub>
+</p>
