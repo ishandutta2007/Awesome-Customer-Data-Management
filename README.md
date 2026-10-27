@@ -32,77 +32,34 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+The global Customer Data Platform (CDP) market is estimated at ~$7.5B–$9.5B in 2024–2025 and is projected to cross $10.4B–$12.8B by 2026, advancing at a CAGR of ~23%–28%. The sector is **highly fragmented** rather than winner-take-all, split between traditional packaged CDPs, enterprise CRM/cloud suites, and composable warehouse-native architectures competing across specialized industry verticals and AI-driven activation models.
 
 
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Salesforce Data Cloud](https://www.salesforce.com/data/)**
-
-  **Enterprise customer data platform** integrated with Salesforce ecosystem. **Pricing**: Quote-only; credit-based consumption model tied to data ingestion, activation, and AI features. **Free tier**: None. **Best for**: Salesforce customers wanting unified customer profiles and activation across Sales, Service, and Marketing clouds.
-
-
-
-- **[Segment](https://segment.com/)** (Twilio)
-
-  **Customer data platform** for collecting, cleaning, and routing data to destinations. **Pricing**: Tiered by monthly tracked users (MTUs); free tier available for smaller volumes. **Free tier**: Limited free tier for early-stage teams. **Best for**: product and growth teams wanting a developer-friendly event pipeline with broad destination integrations.
-
-
-
-- **[Tealium](https://tealium.com/)**
-
-  **Enterprise CDP and tag management** platform with real-time data activation. **Pricing**: Quote-only; enterprise-focused contracts. **Free tier**: None. **Best for**: large organizations needing unified data collection across web, mobile, and offline channels with strong governance.
-
-
-
-- **[mParticle](https://www.mparticle.com/)**
-
-  **Customer data platform** focused on mobile and cross-channel identity resolution. **Pricing**: Quote-only; tiered by data volume and features. **Free tier**: None. **Best for**: mobile-first companies needing robust identity resolution and audience segmentation across apps.
-
-
-
-- **[Treasure Data](https://www.treasuredata.com/)**
-
-  **Enterprise CDP and data management platform** with AI-powered customer intelligence. **Pricing**: Quote-only; consumption-based models available. **Free tier**: None. **Best for**: enterprises with large data volumes wanting a CDP tightly integrated with analytics and ML workflows.
-
-
-
-- **[Amperity](https://amperity.com/)**
-
-  **Enterprise CDP** specializing in identity resolution and customer 360. **Pricing**: Quote-only; enterprise contracts. **Free tier**: None. **Best for**: retail and consumer brands with complex, fragmented customer data needing high-accuracy identity stitching.
-
-
-
-- **[RudderStack](https://www.rudderstack.com/)**
-
-  **Warehouse-first customer data pipeline** (open-core). **Pricing**: Free tier for open-source self-hosted; cloud plans tiered by events. **Free tier**: Generous free tier for self-hosted open-source; cloud trial available. **Best for**: teams wanting a Segment alternative that builds the customer data lake directly in their warehouse.
-
-
-
-- **[ActionIQ](https://www.actioniq.com/)**
-
-  **Enterprise CDP** focused on marketing activation and composable architecture. **Pricing**: Quote-only. **Free tier**: None. **Best for**: large enterprises wanting a composable CDP that integrates with existing data infrastructure.
-
-
-
-- **[Bloomreach](https://www.bloomreach.com/)**
-
-  **Commerce experience platform** with CDP capabilities for personalization. **Pricing**: Quote-only; tiered by traffic and features. **Free tier**: None. **Best for**: e-commerce businesses wanting unified customer data for personalized shopping experiences.
-
-
-
-- **[Workday Customer Data Management](https://www.workday.com/)**
-
-  **Customer data management** within Workday Financials and HCM ecosystem. **Pricing**: Quote-only; bundled with Workday suite. **Free tier**: None. **Best for**: Workday customers wanting customer records integrated with finance and operations data.
+| Platform | Company Size (Valuation / Market Cap) | Starting Price | Free Tier / Trial Limits | Description & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Salesforce Data Cloud](https://www.salesforce.com/data/)** | ~$200B+ Market Cap ($34.9B+ FY24 Rev) | $500/mo (via 100k Flex Credits min) / $60,000/yr (Data 360 Starter) | 30-day trial with standard sandbox limits (or $0 Provisioning SKU for existing CRM customers) | Enterprise customer data platform integrated with Salesforce ecosystem. Best for Salesforce customers wanting unified customer profiles across Sales, Service, and Marketing clouds. |
+| **[Workday Customer Data Management](https://www.workday.com/)** | ~$50B–$55B Market Cap ($7.3B+ FY24 Rev) | ~$35 to $100 per employee/mo (billed annually, custom enterprise contract) | 30-day proof-of-concept / evaluation period via sales (no self-serve free tier) | Customer data management within Workday Financials and HCM suite. Best for enterprises wanting customer master records integrated directly into financial planning and ERP operations. |
+| **[Segment](https://segment.com/)** (Twilio) | ~$40B–$47B Market Cap (Parent Twilio) | $120/mo (Team plan with 10,000 MTUs included) | Free forever: 1,000 MTUs/mo, 2 sources, 300+ integrations; 14-day free trial on Team tier | Customer data platform for collecting, cleaning, and routing data. Best for product and growth teams wanting a developer-friendly event pipeline. |
+| **[Bloomreach](https://www.bloomreach.com/)** | ~$2.2B Valuation | $5,000/mo ($60,000/yr starting tier) | 14-day guided proof-of-concept sandbox via sales (no self-serve free tier) | Commerce experience platform with integrated CDP for personalization. Best for e-commerce brands wanting customer data unified with search, merchandising, and marketing. |
+| **[Tealium](https://tealium.com/)** | ~$1.2B Valuation | $1,000/mo ($12,000/yr billed annually for Data Cloud Activation) | 30-day guided proof-of-concept for qualified prospects (no self-serve free tier) | Enterprise CDP and tag management platform with real-time data activation. Best for large enterprises needing governance-first data collection across web, mobile, and offline channels. |
+| **[Amperity](https://amperity.com/)** | ~$1.0B Valuation | ~$16,666/mo ($200,000/yr starting tier, based on Amps compute units) | 30-day enterprise sandbox / POC on sales engagement (no self-serve free tier) | Enterprise CDP specializing in AI identity resolution and customer 360. Best for retail and consumer brands with complex, fragmented offline and online customer records. |
+| **[Treasure Data](https://www.treasuredata.com/)** | ~$600M+ Valuation (Arm acquisition $600M, $234M SoftBank round) | ~$5,000/mo ($60,000/yr enterprise base contract based on profile tiers) | 30-day complimentary proof-of-concept (POC) using customer data (no self-serve free tier) | Enterprise CDP and AI data platform. Best for data-heavy enterprises needing tight alignment between customer records and machine learning/analytics workflows. |
+| **[ActionIQ](https://www.actioniq.com/)** | ~$511M Valuation (Acquired by Uniphore) | ~$8,333/mo ($100,000/yr starting tier) | 30-day guided POC / staging deployment (no self-serve free tier) | Enterprise CDP focused on marketing activation and hybrid/composable architecture. Best for large enterprises wanting composable data activation on top of existing cloud warehouses. |
+| **[mParticle](https://www.mparticle.com/)** | $300M (Acquired by Rokt) | ~$3,000/mo (estimated entry contract based on mParticle Credits) | 14-day sales-assisted developer sandbox POC (no self-serve free tier) | Customer data platform tailored for mobile-first and omnichannel identity resolution. Best for mobile-first apps needing real-time audience segmentation and SDK pipelines. |
+| **[RudderStack](https://www.rudderstack.com/)** | ~$300M Valuation ($82M Raised) | $265/mo (Growth tier) | Free forever: 250,000 events/mo (plus 14-day free trial of Growth tier; open-source core is 100% free) | Warehouse-first customer data pipeline. Best for engineering and data teams building a Segment alternative directly in Snowflake, BigQuery, or Databricks. |
 
 
 
